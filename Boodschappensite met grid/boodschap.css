@@ -1,0 +1,92 @@
+* {
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+  
+    background-color:rgb(187, 221, 187) ;
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.topbox{
+   
+    justify-content: center;
+    align-items: center;
+    height:550px;
+    width: 1920px;
+    box-shadow: 8px 5px 50px 10px;
+    
+    
+}
+
+
+.logo{
+
+    background-image: url(./Plaatjes/food-and-grocery-delivery-logo-icon-design-te-template-1e169c70e967dd973501811514079490_screen.jpg);
+    height: 550px;
+    width: 656px;
+    overflow: hidden;
+    background-blend-mode:overlay;
+    background-repeat: no-repeat;
+    background-color:rgba(190, 168, 94, 0.747);
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 550px;
+   
+    
+}
+
+.buttonbox{
+    
+    display: flex;
+    flex-flow:row;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    height: 75px;
+    width:300px;
+    background-color:orange;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 1px;
+    
+
+}
+
+.button:hover{
+   
+opacity: 0.85;
+border-style: inset;
+
+}
+
+.button{
+   
+    border: 3px;
+    border-radius: 10px;
+    border-style:outset;
+    border-color:rgb(187, 221, 187) ;
+    background-color: rgba(128, 98, 0, 0.548);
+    height: 30px;
+    width: 75px;
+    padding: 6px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(49, 24, 6);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: small;
+
+}
+
